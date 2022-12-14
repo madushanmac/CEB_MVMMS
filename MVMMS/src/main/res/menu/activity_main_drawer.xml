@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/apphome"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nearby"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Nearby Tower" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="PHM - LCM">
+            <menu>
+                <item
+                    android:id="@+id/nav_addLine"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Line" />
+
+                <item
+                    android:id="@+id/nav_addSupport"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Support" />
+                <item
+                    android:id="@+id/nav_addTowerMaintainance"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Tower Maintainance" />
+                <item
+                    android:id="@+id/nav_addInsulatorMaintainance"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Insulator Maintainance" />
+
+            </menu>
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="sub line">
+            <menu>
+                <item
+                    android:id="@+id/nav_Subline"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Subline" />
+
+
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="PHM - SUB">
+            <menu>
+
+
+                <item
+                    android:id="@+id/nav_addGantry"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Gantry" />
+                <item
+                    android:id="@+id/nav_addFeeder"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Feeder" />
+                <item
+                    android:id="@+id/nav_addAutoRecloser"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Auto Recloser" />
+                <item
+                    android:id="@+id/nav_addLBSABS"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add LBS/ABS" />
+
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Poles Details">
+            <menu>
+                <item
+                    android:id="@+id/nav_addPoles"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Poles" />
+                <item
+                    android:id="@+id/nav_addTowers"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/AddTransformers" />
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/nav_Login"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Log Out" />
+
+</menu>

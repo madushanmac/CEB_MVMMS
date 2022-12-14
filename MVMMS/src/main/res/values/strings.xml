@@ -1,0 +1,1155 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+
+    <color name="maroon">#800000</color>
+    <color name="orange">#ffa500</color>
+    <color name="orange1">#FFE801</color>
+    <color name="orange2">#F0FF01</color>
+    <color name="pressed_color">#000000</color>
+    <color name="default_color">#ffffff</color>
+    <color name="orange3">#F2EE8F</color>
+    <string name="app_name">MVMMS</string>
+    <string name="cusLoc">Customer Location</string>
+    <string name="cusTelHome">Tel-Home</string>
+    <string name="cusTelOther">Tel-Mobile</string>
+
+    <string name="myceb">My CEB</string>
+    <string name="srtname">Enter Name</string>
+    <string name="srtname1">Enter Password</string>
+    <string name="srtname2">LOGIN</string>
+    <string name="srtname3">Update My Location</string>
+    <string name="srtname4">YOU ARE AT</string>
+    <string name="srtname5">GET MY LOCATION</string>
+    <string name="saveLoc">SAVE LOCATION</string>
+    <string name="srtname6"> START LOCATION UPDATES</string>
+    <string name="srtname7">Account Number</string>
+    <string name="srtname8">Nature of Complaint</string>
+    <string name="srtname9">BD Date</string>
+    <string name="srtname10">BD Time</string>
+
+    <string name="addCom">Comments</string>
+    <string name="srtname12">SEND</string>
+    <string name="srtname13">Add Complaint</string>
+    <string name="srtname14">View History</string>
+    <string name="srtname15">View Bill Balances</string>
+    <string name="srtname16">Account Number</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="title_activity_main_activity__location__update">MainActivity_Location_Update
+    </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_activity_complain">MainActivityComplain</string>
+    <string name="title_activity_main_activity22">MainActivity22Activity</string>
+    <string name="title_activity_maps_activity__new">MapsActivity_New</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB80wLKnkDHnZlA1xA9aiEDNHmpcoEk_Uo</string>
+    <!--string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBQ7pmLcW3u_h6y29vo_VSG7FTaymjSRRU</string-->
+
+
+    <string name="title_activity_maps_activity__test">Map</string>
+    <string name="userName">Enter User Name</string>
+    <string name="password">Enter Password</string>
+    <string name="logIn">LOGIN</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Photos</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string name="action_clear_all">Clear All</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="answere">Power off will be restored\nwithin 10 minutes</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">View Profile</string>
+    <string name="title_section3">Location Settings</string>
+
+    <string name="title_section4">Add Complain</string>
+    <string name="title_section5">View Complain History</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_view_profile">Edit Profile</string>
+    <string name="title_activity_location_settings">Location Settings</string>
+
+
+    <string name="title_activity_location_update">Map</string>
+    <string name="title_activity_main__location__update">Map</string>
+
+    <string name="title_activity_add_complain">Add Complain</string>
+
+    <string name="title_activity_complaint_history">Complaint History</string>
+    <string name="title_activity_add_province">Add Province</string>
+
+    <string name="title_activity_add_line">Add Line</string>
+    <string name="title_activity_add_gantry">Add Gantry</string>
+    <string name="title_activity_add_support">Add Support</string>
+    <string name="title_activity_add_tower_maintainance">Add Tower Maintenance</string>
+    <string name="title_activity_add_equipment">Add Equipment</string>
+
+    <string name="title_activity_add_location_detail">Add Location Detail</string>
+    <string name="title_activity_add_information_reated_to_sampling">Add Information Reated To Sampling</string>
+
+
+    <string name="title_activity_add_condition_of_the_equipment">Add Condition Of The Equipment</string>
+
+    <string name="title_activity_add_area">Add Area</string>
+    <string name="title_activity_add_csc">Add CSC</string>
+    <string name="title_activity_add_line_type">Add Line Type</string>
+    <string name="title_activity_add_support_type">Add Support Type</string>
+    <string name="title_activity_add_conductor_type">Add Conductor Type</string>
+    <string name="title_activity_add_earth_conductor_type">Add EarthConductor Type</string>
+    <string name="title_activity_add_insulator_type">Add Insulator Type</string>
+    <string name="title_activity_add_tower_config">Add Tower Config</string>
+    <string name="title_activity_add_status">Add Status</string>
+    <string name="Add_New">Add New</string>
+    <string name="edit">Edit Contact</string>
+    <string name="delete">Delete Contact</string>
+    <string name="title_activity_display_contact">Display Contact</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+
+
+    <string name="email">Email</string>
+    <string name="street">Street</string>
+
+
+    <string name="country">City/State/Zip</string>
+    <string name="save">Save Contact</string>
+
+    <string name="deleteContact">Are you sure, you want to delete it.</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_select_tm">Select_tm</string>
+
+    <string name="title_activity_select_tower_maintainance">Select Tower Maintenance</string>
+
+    <string name="title_activity_tm2">Select Tower Maintenance</string>
+
+
+    <string name="title_activity_equipment">Select Add Equipment</string>
+    <string name="title_activity_location">Select Add Location</string>
+
+    <string name="title_activity_sample">Select Add Sample</string>
+    <string name="title_activity_condition">Select Add Condition</string>
+
+    <string name="GetNearByTower">GetNearByTower</string>
+
+
+    <string name="title_activity_get_nearby_tower">NearBy Tower</string>
+
+    <string name="AddPoles">Add Poles</string>
+
+    <string name="title_activity_add_poles">Add Poles</string>
+    <string name="AddTransformers">Add Transformers</string>
+
+    <!--  <string-array name="Manufacture">
+        <item> Select Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>-->
+    <string name="title_activity_add_transformers">Add Transformers</string>
+    <string name="imageview">imageView</string>
+
+    <string name="error">Error finding image</string>
+
+
+    <string name="permission_denied">Permission denied</string>
+    <string name="title_location_permission">Request Location permissions</string>
+    <string name="text_location_permission">Please allow the location permissions</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_apphome">Home</string>
+    <string name="title_activity_add_gantry_more">AddGantryMore</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="menu_gallery">Gallery</string>
+
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_tools">Tools</string>
+
+    <string name="menu_share">Share</string>
+
+    <string name="menu_send">Send</string>
+
+    <string name="title_activity_add_bus_bar">addBusBar</string>
+
+    <string name="title_activity_add_structural">AddStructural</string>
+
+    <string name="title_activity_add_outgoing_feeder">AddOutgoingFeeder</string>
+
+    <string name="title_activity_add_abs">AddABS</string>
+
+    <string name="title_activity_add_ddlo">AddDDLO</string>
+
+    <string name="title_activity_add_surge_arrestors">Add Surge Arrestors</string>
+
+    <string name="title_activity_add_transformers_g">Add Transformers</string>
+
+    <string name="title_activity_add_switches">Add Switches</string>
+    <string-array name="type_com">
+        <item>Customer</item>
+        <item>Stander</item>
+        <item>Neighbour</item>
+        <item>Occupant</item>
+        <item>Tenant</item>
+        <item>Office Incharge</item>
+        <item>Security Guard</item>
+    </string-array>
+    <string-array name="priority_code">
+        <item>Urgent</item>
+        <item>Very High</item>
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+
+    </string-array>
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="area">
+        <item>Select Area</item>
+
+    </string-array>
+    <string-array name="csc">
+        <item>422.10-Habarana CSC</item>
+        <item>422.20-Polonnaruwa CSC</item>
+        <item>422.30-Hingurakgoda CSC</item>
+        <item>431.40-Nawalapitiya CSC</item>
+        <item>331.50-Gampola CSC</item>
+        <item>431.60-Kurunduwatta CSC</item>
+        <item>432.10-Nuwara Eliya CSC</item>
+        <item>432.20-Rikillagaskada CSC</item>
+        <item>432.50-Thawalanthenna CSC</item>
+        <item>432.60-Lindula CSC</item>
+        <item>432.80-Walapane CSC</item>
+        <item>433.10-Ampitiya CSC</item>
+        <item>433.20-Yatinuwara CSC</item>
+        <item>433.50-Eriyagama CSC</item>
+        <item>434.10-Kandy North CSC</item>
+        <item>434.20-Kandy South CSC</item>
+        <item>434.30-Kandy Central CSC</item>
+        <item>435.10-Wattegama CSC</item>
+        <item>435.30-Ambethenna CSC</item>
+        <item>435.60-Madolkele CSC</item>
+        <item>436.10-Matale CSC</item>
+        <item>436.50-Rattota CSC</item>
+        <item>437.10-Dumbara CSC</item>
+        <item>437.20-Hasalaka CSC</item>
+        <item>437.40-Karalliyadda CSC</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="conType">
+        <item>1-Racoon</item>
+        <item>2-ELM</item>
+        <item>3-Tiger</item>
+        <item>4-Dog</item>
+        <item>5-Lynx</item>
+        <item>6-Copper</item>
+        <item>7-Other</item>
+
+    </string-array>
+    <string-array name="Flash_over_sets">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="Fungus_Set">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>Other</item>
+
+    </string-array>
+
+
+    <string-array name="W_pin_Set">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="End_Fitting_Set">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="towerType">
+        <item>1-TDL </item>
+        <item>2-TDM </item>
+        <item>3-TDH </item>
+        <item>4-TDT</item>
+        <item>5-MDL</item>
+        <item>6-MDM</item>
+        <item>7-MDH</item>
+        <item>8-MDT</item>
+        <item>9-TSL</item>
+        <item>10-TSM</item>
+        <item>11-TSH</item>
+        <item>12-TST</item>
+        <item>13-MSL</item>
+        <item>14-MSM</item>
+        <item>15-MSH</item>
+        <item>16-MST</item>
+        <item>17-RC</item>
+        <item>18-PS</item>
+        <item>19-PB Pole</item>
+        <item>20-SL</item>
+        <item>21-Other</item>
+
+    </string-array>
+    <string-array name="towerConfig">
+        <item>1-Tension</item>
+        <item>2-Suspension</item>
+        <item>3-Pin</item>
+
+    </string-array>
+    <string-array name="switching_devise">
+        <item>None</item>
+        <item>LBS</item>
+        <item>ABS</item>
+        <item>DDLO</item>
+        <item>AR</item>
+        <item>Not Visible</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="complainer">
+        <item>Select Complainer Type</item>
+        <item>User</item>
+        <item>Admin</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="complaint_nature">
+        <item>Select Nature Of Complaint</item>
+        <item>Break Down</item>
+        <item>Disconnection</item>
+    </string-array>
+    <string-array name="Way_Leaving_Status">
+        <item>Good</item>
+        <item>Touch</item>
+        <item>Danger</item>
+        <item>Close</item>
+        <item>Around</item>
+        <item>Along</item>
+        <item>Bad</item>
+        <item>Corroded</item>
+        <item>Lost</item>
+        <item>Damaged</item>
+
+
+    </string-array>
+    <string-array name="Base_Concrete_Status">
+        <item>Good</item>
+        <item>Touch</item>
+        <item>Danger</item>
+        <item>Close</item>
+        <item>Around</item>
+        <item>Along</item>
+        <item>Bad</item>
+        <item>Corroded</item>
+        <item>Lost</item>
+        <item>Damaged</item>
+
+
+    </string-array>
+    <string-array name="Anti_Climbing_Status">
+
+        <item>Good</item>
+        <item>Corroded</item>
+        <item>Lost</item>
+        <item>Damaged</item>
+        <item>ACD not available</item>
+
+
+    </string-array>
+    <string-array name="Conductor_Condition">
+
+        <item>Good</item>
+        <item>Danger</item>
+        <item>Damaged</item>
+        <item>Ground clearance not enough</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="Tapping">
+
+
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="Earth_Conductor_Condition">
+
+
+        <item>Good</item>
+        <item>Danger</item>
+        <item>Damaged</item>
+        <item>Corroded</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Jumper_Condition">
+
+        <item>Good</item>
+        <item>None</item>
+        <item>Damaged</item>
+        <item>Danger</item>
+        <item>Other</item>
+
+
+    </string-array>
+    <string-array name="Maintainance_Attention">
+        <item>Not Urgent</item>
+        <item>Urgent</item>
+    </string-array>
+    <string-array name="Select_Area">
+
+        <item>422-Minneriya Area</item>
+        <item>431-Nawalapitiya Area</item>
+        <item>432-Nuwara Eliya Area</item>
+        <item>433-Peradeniya Area</item>
+        <item>434-Kandy City Area</item>
+        <item>435-Katugastota Area</item>
+        <item>436-Matale Area</item>
+        <item>437-Kundasale Area</item>
+        <item>439-Kegalle Area</item>
+        <item>441-Kelaniya Area</item>
+        <item>442-Negambo</item>
+        <item>443-Gampaha Area</item>
+        <item>461-Trincomalee Area</item>
+        <item>462-Batticaloa Area</item>
+        <item>463-Ampara Area</item>
+        <item>464-Kalmunai Area</item>
+        <item>470-Galagedara Area</item>
+        <item>471-Dambulla Area</item>
+        <item>472-Mawanella Area</item>
+        <item>556-Ginigathhena Area</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="Select_Line">
+        <item>SU A MT-Sunilagama  Matibokka</item>
+        <item>CH G MO E-Cholankanda Gantry  Moswill End</item>
+        <item>GM G AM A-Gampola Gantry Ambagamuwa ABS</item>
+        <item>UK OG A-Ukuwela Ogodapola ABS</item>
+        <item>KT G GO G-Gorakadeniya  Katugastota</item>
+        <item>UK KT G L2-Ukuwela  Katugastota L2</item>
+        <item>MK A MU G-Makkanigama Maussawa</item>
+        <item>MU G GA A-Maussawa Gantry Galabadawatta ABS</item>
+        <item>MU G PT A-Maussawa Gantry  Pitakanda ABS</item>
+        <item>NA G KT G-Narandanda Gantry  Katugastota Gantry</item>
+        <item>UK KT G-Ukuwela Katugastota Gantry</item>
+        <item>UK NA G L1-Ukuwela  Narandanda Gantry L1</item>
+        <item>UK NA G-Ukuwela Narandanda L2</item>
+        <item>HS E MA G-Hasalaka End  Mahiyagana Gantry</item>
+        <item>HS G RN G-Hasalaka Gantry Randenigala Gantry</item>
+        <item>HS G UD A-Hasalaka Gantry Ududumbara ABS</item>
+        <item>KR G AL E-Karalliyadda Gantry  Aluthwatta End</item>
+        <item>KR G GA E-Karalliyadda Gantry  Gatanetanna End</item>
+        <item>KR G GL A-Karalliyadda Gantry Galabadawatta ABS</item>
+        <item>KR G UD A-Karalliyadda Gantry  Udadumbaya ABS</item>
+        <item>MH HA L1-Mahiyanganaya  Hasalaka</item>
+        <item>NA PL  L1-Narandanda Pallekelle Gantry L1</item>
+        <item>NA PL L2-Narandanda  Pallekelle Gantry L2</item>
+        <item>PK PL G-Pallekelle  Pallekelle Gantry</item>
+        <item>PL G BA E-Pallekelle Gantry bambaragala End</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="SpinnerCycle">
+        <item>201801</item>
+        <item>201802</item>
+        <item>201901</item>
+        <item>201902</item>
+        <item>202001</item>
+        <item>202002</item>
+
+
+    </string-array>
+    <string-array name="sp_observation">
+        <item>None</item>
+        <item>Married Joint available</item>
+        <item>H connectors to be fixed</item>
+        <item>Base concrete civil work available</item>
+        <item>Close Tapping</item>
+        <item>Pin insulator flash</item>
+        <item>Arm plate corroded</item>
+        <item>U bolt corroded - Plate</item>
+        <item>U bolt corroded - Gun</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="leg_painting">
+        <item>No</item>
+        <item>Yes</item>
+
+    </string-array>
+    <string-array name="hot_line_Main">
+        <item>Possible</item>
+        <item>Impossible</item>
+
+    </string-array>
+    <string-array name="Type">
+        <item> Select Type</item>
+        <item>1-Backbone</item>
+        <item>2-Distributor</item>
+
+    </string-array>
+    <string-array name="type">
+        <item>Transformer</item>
+        <item>Single Barrel</item>
+        <item>Multi Barrel</item>
+
+    </string-array>
+    <string-array name="Condition">
+        <item>In Use</item>
+        <item>Abandoned</item>
+
+    </string-array>
+    <string-array name="Type_of_Located">
+        <item>Indoor</item>
+        <item>Outdoor</item>
+    </string-array>
+    <string-array name="Type1">
+        <item>Seal</item>
+        <item>None-Sea</item>
+
+    </string-array>
+
+    <string-array name="Primary">
+        <item> Yes</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Seal">
+        <item> Select Type</item>
+        <item>Seal</item>
+        <item>None-Seal</item>
+    </string-array>
+    <string-array name="Division">
+        <item>Generation Transformer</item>
+        <item> Transmission Transformer</item>
+        <item> Distribution Transformer</item>
+        <item> Instrument Transformer</item>
+        <item>  Capacitor and Circuit Breakers</item>
+    </string-array>
+    <string-array name="OilLeaksPresent">
+        <item> Select Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Corrosion">
+        <item> Select Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="BurnMarks">
+        <item> Select Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="attention">
+        <item> Select Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="Earthing">
+        <item> Select Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Breather">
+        <item> Select Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Lighting">
+        <item> Select Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Overload">
+        <item> Select Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Mounting">
+        <item> Select Type</item>
+        <item>Pole</item>
+        <item>Plinth</item>
+        <item>Ground</item>
+    </string-array>
+    <string-array name="area1">
+        <item>Area</item>
+
+        <item>422.00-Minneriya Area</item>
+        <item>431.00-Nawalapitiya Area</item>
+        <item>432.00-Nuwara Eliya Area</item>
+        <item>433.00-Peradeniya Area</item>
+        <item>434.00-Kandy City Area</item>
+        <item>435.00-Katugastota Area</item>
+        <item>436.00-Matale Area</item>
+        <item>437.00-Kundasale Area</item>
+        <item>439.00-Kegalle Area</item>
+        <item>441.00-Kelaniya Area</item>
+        <item>442.00-Negambo</item>
+        <item>443.00-Gampaha Area</item>
+        <item>461.00-Trincomalee Area</item>
+        <item>462.00-Batticaloa Area</item>
+        <item>463.00-Ampara Area</item>
+        <item>464.00-Kalmunai Area</item>
+        <item>470.00-Galagedara Area</item>
+        <item>471.00-Dambulla Area</item>
+        <item>472.00-Mawanella Area</item>
+        <item>556.00-Ginigathhena Area</item>
+    </string-array>
+    <string-array name="feeder_identification">
+        <item>None</item>
+        <item>F01</item>
+        <item>F02</item>
+        <item>F03</item>
+        <item>F04</item>
+        <item>F05</item>
+        <item>F06</item>
+        <item>F07</item>
+        <item>F08</item>
+        <item>F09</item>
+        <item>F10</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="pole_materials">
+        <item>Wooden</item>
+        <item>Concrete</item>
+    </string-array>
+    <string-array name="pole_materials_wooden">
+        <item>6m</item>
+        <item>8.3m</item>
+    </string-array>
+    <string-array name="pole_materials_concrete">
+        <item>6m</item>
+        <item>7.6m</item>
+        <item>8.3m/100kg</item>
+        <item>8.3m/500kg</item>
+        <item>9m/115kg</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="line_details">
+        <item>AAC</item>
+        <item>ABC</item>
+    </string-array>
+    <string-array name="line_details_AAC">
+        <item>1ph</item>
+        <item>2ph</item>
+        <item>3ph</item>
+        <item>S/L</item>
+    </string-array>
+
+    <string-array name="line_details_ABC">
+        <item>1ph</item>
+        <item>3ph</item>
+        <item>4 core</item>
+        <item>5 core</item>
+    </string-array>
+    <string-array name="no_of_consumers">
+        <item>1ph</item>
+        <item>3ph</item>
+    </string-array>
+    <string-array name="substation_type">
+        <item>D</item>
+        <item>B</item>
+        <item>B/D</item>
+    </string-array>
+    <string-array name="mounting_type">
+        <item>Single Pole</item>
+        <item>Double Pole</item>
+        <item>Plinth</item>
+    </string-array>
+    <string-array name="number_of_feeders">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="capacity">
+        <item>100 kVA</item>
+        <item>160 kVA</item>
+        <item>250 kVA</item>
+        <item>400 kVA</item>
+        <item>630 kVA</item>
+        <item>800 kVA</item>
+        <item>1000 kVA</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="voltage_level">
+        <item>11</item>
+        <item>33</item>
+    </string-array>
+    <string-array name="gantry_type">
+        <item>Pole</item>
+        <item>Structural</item>
+    </string-array>
+    <string-array name="construction_type">
+        <item>Structural</item>
+        <item>Pole</item>
+    </string-array>
+    <string-array name="gantry_electrcial_type">
+        <item>SBB</item>
+        <item>DBB</item>
+    </string-array>
+    <string-array name="bus_bar_conductor">
+        <item>Lynx</item>
+        <item>Racoon</item>
+        <item>ELM</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="bus_bar_insulator">
+        <item>70 kN Gun</item>
+        <item>70 kN Dead End</item>
+        <item>120 kN</item>
+    </string-array>
+    <string-array name="auxillary_system">
+        <item>5 kVA,33kV/400V</item>
+        <item>5 kVA,11kV/400V</item>
+    </string-array>
+    <string-array name="overhead_earthing">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="mounting">
+        <item>Pole</item>
+        <item>C Chanel</item>
+    </string-array>
+
+    <string-array name="brand_name">
+        <item>NOJA</item>
+        <item>ADVC</item>
+        <item>Jing Kvang</item>
+        <item>Nulec</item>
+        <item>BN System</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="arangement">
+        <item>Horizontal</item>
+        <item>Verticle</item>
+    </string-array>
+
+    <string-array name="insulation_medium">
+        <item>SF6</item>
+        <item>Epoxy</item>
+    </string-array>
+
+    <string-array name="operation_direction">
+        <item>Horizontal</item>
+        <item>Verticle</item>
+    </string-array>
+
+    <string-array name="positionLBS">
+        <item>Incoming</item>
+        <item>Outgoing</item>
+        <item>Line</item>
+        <item>Bus Coupler</item>
+        <item>Bus Sectionlizer</item>
+    </string-array>
+
+    <string-array name="locationAutoRecloser">
+        <item>Gantry</item>
+        <item>Line</item>
+    </string-array>
+
+    <string-array name="connectedBus">
+        <item>Top</item>
+        <item>Bottom</item>
+        <item>Top - Bottom</item>
+    </string-array>
+
+    <string-array name="position">
+        <item>Bypass</item>
+        <item>Isolation</item>
+        <item>Bus Coupler</item>
+        <item>Bus Section</item>
+    </string-array>
+
+    <string-array name="carrier_type">
+        <item>Fuse</item>
+        <item>Link</item>
+    </string-array>
+
+    /////////////////////// Pole\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string-array name="pole_line_deltails">
+        <item>AAC 1ph</item>
+        <item>AAC 2ph</item>
+        <item>AAC 3ph</item>
+        <item>AAC S/L</item>
+        <item>ABC 1ph</item>
+        <item>ABC 1ph</item>
+        <item>ABC 3ph - 4core</item>
+        <item>ABC 3ph - 5core</item>
+    </string-array>
+
+    <string-array name="consumer_type">
+        <item>Single Phase</item>
+        <item>Three Phase</item>
+    </string-array>
+
+    <string-array name="pole_material">
+        <item>Wooden 6m</item>
+        <item>Wooden 8.3m</item>
+        <item>Wooden 9m</item>
+        <item>Concrete 6m</item>
+        <item>Concrete 8.3m/100g</item>
+        <item>Concrete 8.3m/500g</item>
+        <item>Concrete 9m/115g</item>
+        <item>Other</item>
+    </string-array>
+
+
+    //// For MV Poles
+
+    <string-array name="Pole_height">
+        <item>Select Type</item>
+        <item>3m</item>
+        <item>10m</item>
+        <item>11m</item>
+        <item>13m</item>
+    </string-array>
+    <string-array name="Pole_height_wood">
+        <item>Select Type</item>
+        <item>9m</item>
+        <item>10m</item>
+    </string-array>
+    <string-array name="Pole_height_rcpole">
+        <item>Select Type</item>
+        <item>10m</item>
+        <item>11m</item>
+        <item>13m</item>
+    </string-array>
+
+    Pole_height_rcpole
+
+    <string-array name="Pole_type_steel">
+        <item>Select Type</item>
+        <item>Tubuler</item>
+        <item>P.G. Pole</item>
+    </string-array>
+
+    <string-array name="Pole_type_concrete">
+        <item>Select Type</item>
+        <item>RC Pole</item>
+        <item>Pre Stressed Pole</item>
+    </string-array>
+
+
+    <string-array name="Pole_type">
+        <item>Wooden</item>
+        <item>Steel Tubuler</item>
+        <item>PG Pole</item>
+        <item>RC</item>
+        <item>PS</item>
+    </string-array>
+    <string-array name="Pole_type_new">
+        <item>Select Type</item>
+        <item>Wood</item>
+        <item>Steel</item>
+        <item>Concrete</item>
+
+    </string-array>
+    <string-array name="Working_load">
+        <item>225Kg</item>
+        <item>300Kg</item>
+        <item>350Kg</item>
+        <item>500Kg</item>
+        <item>850Kg</item>
+        <item>1200Kg</item>
+    </string-array>
+    <string-array name="Working_load_10m">
+        <item>Select Type</item>
+        <item>300Kg</item>
+    </string-array>
+    <string-array name="Working_load_10m_only">
+        <item>Select Type</item>
+        <item>225Kg</item>
+    </string-array>
+    <string-array name="Working_load_11m">
+        <item>Select Type</item>
+        <item>350Kg</item>
+        <item>500Kg</item>
+        <item>850Kg</item>
+        <item>1200Kg</item>
+    </string-array>
+    <string-array name="conductor_cct">
+        <item>Copper 1</item>
+        <item>Copper 2</item>
+        <item>Copper 4</item>
+        <item>Copper 6</item>
+        <item>ELM</item>
+        <item>Weasel</item>
+        <item>Raccoon</item>
+        <item>Lynx</item>
+        <item>Cockroach</item>
+        <item>ABC 95</item>
+        <item>ABC 150</item>
+    </string-array>
+    <string-array name="cross_arm">
+        <item>Pin</item>
+        <item>Shackle</item>
+        <item>Pin Composite</item>
+    </string-array>
+    <string-array name="insulator_conductor_cct">
+        <item>Porcelain</item>
+        <item>Composite</item>
+        <item>Polymer</item>
+        <item>Glass</item>
+    </string-array>
+    <string-array name="mv_switch">
+        <item>DDLO</item>
+        <item>LINK</item>
+        <item>ABS</item>
+        <item>LBS</item>
+        <item>AR</item>
+        <item>Sectionalizer</item>
+        <item>CT/PT</item>
+        <item>VT</item>
+    </string-array>
+    <string-array name="transformer_capacity">
+        <item>100 kVA</item>
+        <item>250 kVA</item>
+        <item>400 kVA</item>
+        <item>630 kVA</item>
+        <item>800 kVA</item>
+        <item>1000 kVA</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="typenew">
+        <item>Select Type</item>
+        <item>Pole</item>
+        <item>Strut Pole</item>
+        <item>Stay HT</item>
+    </string-array>
+    <string-array name="conductor">
+        <item>Select Type</item>
+        <item>Copper</item>
+        <item>AAAC</item>
+        <item>ACSR</item>
+        <item>MV ABC</item>
+    </string-array>
+    <string-array name="copper_size">
+        <item>Select Type</item>
+        <item>1(7.6mm)</item>
+        <item>2(7mm)</item>
+        <item>4(6mm)</item>
+        <item>6(5mm)</item>
+        <item>8(4mm)</item>
+    </string-array>
+    <string-array name="AAAC_size">
+        <item>Select Type</item>
+        <item>ELM -19/3.76</item>
+        <item>7/4.25</item>
+    </string-array>
+    <string-array name="ACSR_size">
+        <item>Select Type</item>
+        <item>7/2.59 Weasel</item>
+        <item>Racoon</item>
+        <item>Lynx</item>
+        <item>Cockroch</item>
+    </string-array>
+    <string-array name="MV_ABC_type">
+        <item>Select Type</item>
+        <item>11kV</item>
+        <item>33kV</item>
+    </string-array>
+    <string-array name="MV_ABC_size">
+        <item>Select Type</item>
+        <item>95sqmm</item>
+        <item>150sqmm</item>
+    </string-array>
+    <string-array name="insulator">
+        <item>Select Type</item>
+        <item>33kV</item>
+        <item>11kV</item>
+    </string-array>
+    <string-array name="insulator_type">
+        <item>Select Type</item>
+        <item>Pin</item>
+        <item>Shackle</item>
+        <item>Post</item>
+    </string-array>
+    <string-array name="intype">
+        <item>Select Type</item>
+        <item>Porcelain</item>
+        <item>Composite</item>
+        <item>Polymer(only 11kV)</item>
+    </string-array>
+    <string-array name="Shackle_type">
+        <item>Glass 70KN</item>
+        <item>Porcelain 120KN</item>
+        <item>Polymer 70KN</item>
+    </string-array>
+    <string-array name="Equipment">
+        <item>Select Type</item>
+        <item>DDLO</item>
+        <item>LINK</item>
+        <item>ABS</item>
+        <item>LBS</item>
+        <item>Sectionlizer</item>
+        <item>CT/PT Unit</item>
+        <item>VT 5kVA</item>
+    </string-array>
+    <string-array name="Cross_Arm">
+        <item>Select Type</item>
+        <item>Pin Composite</item>
+        <item>Pin</item>
+        <item>Tension</item>
+    </string-array>
+    <string-array name="Cross_Arm_type">
+        <item>Select Type</item>
+        <item>33kV</item>
+        <item>11kV</item>
+    </string-array>
+    <string-array name="Earth">
+        <item>Select Type</item>
+        <item>Line Earth</item>
+        <item>Down Earth</item>
+    </string-array>
+
+    <string-array name="Earth_type">
+        <item>No.06 - 5mm</item>
+    </string-array>
+    <string-array name="goodorbad">
+        <item>Good</item>
+        <item>Bad</item>
+    </string-array>
+    <string-array name="stay">
+        <item>Good</item>
+        <item>Bad</item>
+        <item>Attention Required</item>
+    </string-array>
+    <string-array name="voltage">
+        <item>Select Type</item>
+        <item>11kV</item>
+        <item>33kV</item>
+    </string-array>
+    <string-array name="phase">
+        <item>Select Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+    <string-array name="verticleposition">
+        <item>Select Type</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="circuitformation">
+        <item>Select Type</item>
+        <item>horizontal</item>
+        <item>vertical</item>
+        <item>Triangle</item>
+    </string-array>
+
+    <string-array name="Source">
+        <item>Select Type</item>
+        <item>Gantry</item>
+        <item>Grid</item>
+        <item>PSS</item>
+    </string-array>
+
+
+</resources>

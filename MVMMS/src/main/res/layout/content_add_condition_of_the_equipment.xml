@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f8ff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mvmms.ceb.myapplication.AddConditionOfTheEquipment"
+    tools:showIn="@layout/activity_add_condition_of_the_equipment">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="ලංකා විදුලිබල මණ්ඩලය"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:gravity="center"
+                android:text="இலங்கை மின்சார சபை"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:gravity="center"
+                android:text="Ceylon Electricity Board"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewE"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                android:text="Condition of the Equipment"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewOilLeaksPresent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView11"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="Oil Leaks Present"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/SpinnerOilLeaksPresent"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textViewOilLeaksPresent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textViewOilLeaksPresent"
+                android:layout_below="@+id/textViewOilLeaksPresent"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:entries="@array/OilLeaksPresent"
+                android:gravity="center"
+                android:hint="Oil Leaks Present"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+
+
+            <TextView
+                android:id="@+id/textViewCorrosion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SpinnerOilLeaksPresent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Corrosion"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/SpinnerCorrosion"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textViewCorrosion"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textViewCorrosion"
+                android:layout_below="@+id/textViewCorrosion"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:entries="@array/Corrosion"
+                android:gravity="center"
+                android:hint="Corrosion"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textViewBurnMarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SpinnerCorrosion"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Burn Marks "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <Spinner
+                android:id="@+id/SpinnerBurnMarks"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textViewBurnMarks"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textViewBurnMarks"
+                android:layout_below="@+id/textViewBurnMarks"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:entries="@array/BurnMarks"
+                android:gravity="center"
+                android:hint="Burn Marks"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/textViewattention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SpinnerBurnMarks"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Terminal / Connections Need attention "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+            <Spinner
+                android:id="@+id/Spinnerattention"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textViewattention"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textViewattention"
+                android:layout_below="@+id/textViewattention"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:entries="@array/attention"
+                android:gravity="center"
+                android:hint="Terminal / Connections Need attention"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:id="@+id/textViewEarthing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Spinnerattention"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Earthing Connection is properly done"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/SpinnerEarthingConnection"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textViewEarthing"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textViewEarthing"
+                android:layout_below="@+id/textViewEarthing"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:entries="@array/Earthing"
+                android:gravity="center"
+                android:hint="Earthing Connection is properly done"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/textViewBreather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SpinnerEarthingConnection"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Breather is in Good condition"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/SpinnerBreather"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textViewBreather"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textViewBreather"
+                android:layout_below="@+id/textViewBreather"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:entries="@array/Breather"
+                android:gravity="center"
+                android:hint="Breather is in Good condition"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/textViewOverload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SpinnerBreather"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Overload signs present"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+            <Spinner
+                android:id="@+id/SpinnerOverload"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textViewOverload"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textViewOverload"
+                android:layout_below="@+id/textViewOverload"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:entries="@array/Overload"
+                android:gravity="center"
+                android:hint="Overload signs present"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/textViewLighting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SpinnerOverload"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Lighting arresters are properly done "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <Spinner
+                android:id="@+id/SpinnerLighting"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textViewLighting"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textViewLighting"
+                android:layout_below="@+id/textViewLighting"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:entries="@array/Lighting"
+                android:gravity="center"
+                android:hint="Lighting arresters are properly done "
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/btnConditionEq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SpinnerLighting"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="@android:color/holo_red_dark"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="SAVE"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+
+

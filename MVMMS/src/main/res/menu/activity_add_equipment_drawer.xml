@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<!--
+    <item
+        android:id="@+id/apphome"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Home" />
+    <item
+        android:id="@+id/nearby"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Nearby Tower" />
+
+    <item android:title="Add Admin Units">
+        <menu>
+            <item
+                android:id="@+id/nav_addLine"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Line" />
+            <item
+                android:id="@+id/nav_addSupport"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Support" />
+
+
+
+
+
+        </menu>
+    </item>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Add Maintainance">
+            <menu>
+
+
+                <item
+                    android:id="@+id/nav_addTowerMaintainance"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Tower Maintainance" />
+                <item
+                    android:id="@+id/nav_addInsulatorMaintainance"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Insulator Maintainance" />
+
+            </menu>
+        </item>
+    </group>-->
+
+    <item android:title="Manage Equipment">
+        <menu>
+            <item
+                android:id="@+id/nav_addEquipment"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Equipment" />
+
+            <item
+                android:id="@+id/nav_addPoles"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Poles" />
+
+           <!-- <item
+                android:id="@+id/nav_addLocationDetail"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Location Details" />
+
+
+            <item
+                android:id="@+id/nav_addInformationReatedtoSampling"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Information Reated to Sampling" />
+            <item
+                android:id="@+id/nav_addConditionoftheEquipment"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Condition of the Equipment" />
+
+-->
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_Login"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Log Out" />
+
+</menu>

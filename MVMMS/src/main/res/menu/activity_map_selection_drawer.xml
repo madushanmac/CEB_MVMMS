@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/apphome"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nearby"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Nearby Tower" />
+
+        <item
+            android:id="@+id/mapselection"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Map Selection" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="PHM - LCM">
+            <menu>
+                <item
+                    android:id="@+id/nav_addLine"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Line" />
+                <item
+                    android:id="@+id/nav_editLine"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Edit Line" />
+
+                <item
+                    android:id="@+id/nav_addSupport"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Support" />
+                <item
+                    android:id="@+id/nav_addTowerMaintainance"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Tower Maintainance" />
+                <item
+                    android:id="@+id/nav_addInsulatorMaintainance"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Insulator Maintainance" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="PHM - SUB">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_addGantry"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Gantry" />
+                <item
+                    android:id="@+id/nav_addBusBar"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Bus bar Auxiliary System" />
+                <item
+                    android:id="@+id/nav_addStructual"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Structual and Earthing System" />
+                <item
+                    android:id="@+id/nav_addGantryMore"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Gantry Location" />
+                <item
+                    android:id="@+id/nav_addFeeder"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Feeders" />
+                <item
+                    android:id="@+id/nav_addSwitches"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Switches" />
+                <item
+                    android:id="@+id/nav_addSurge"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Surge Arrestors" />
+                <item
+                    android:id="@+id/nav_addTransformersG"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Transformers" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Poles Details">
+            <menu>
+                <item
+                    android:id="@+id/nav_addMVPoles"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add MV Poles" />
+                <item
+                    android:id="@+id/nav_addPoles"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Add Poles" />
+                <item
+                    android:id="@+id/nav_editPoles"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Edit Poles" />
+                <item
+                    android:id="@+id/nav_addTowers"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/AddTransformers" />
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/nav_Login"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Log Out" />
+
+</menu>

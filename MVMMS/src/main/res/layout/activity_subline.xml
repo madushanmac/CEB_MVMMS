@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.akla.login.TM2"
+    android:background="#f0f8ff">
+
+
+    <ScrollView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:context="admin.ceb.com.myceb.Home$PlaceholderFragment"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ලංකා විදුලිබල මණ්ඩලය"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:text="இலங்கை மின்சார சபை"
+                android:textSize="20dp"
+                android:gravity="center"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:gravity="center"
+                android:text="Ceylon Electricity Board"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/darker_gray"
+
+
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Select Tower Maintainance"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/Area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spnProvince"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:text="Area" />
+
+            <Spinner
+                android:id="@+id/spnArea"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView19"
+                android:layout_alignStart="@+id/etLineID"
+                android:layout_alignLeft="@+id/etLineID"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/transfomerSN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+                android:text="Transfomer Serial Number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/TSNet"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@+id/textView18"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Name"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+
+            <TextView
+                android:id="@+id/sin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+                android:text="SIN"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/SINet"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@+id/textView18"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Name"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/Capacity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:text="Capacity
+"  />
+
+            <EditText
+                android:id="@+id/Capacityet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etCode"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:text="Voltage
+"  />
+
+
+            <EditText
+                android:id="@+id/voltageet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView49"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/Earth_fault_current_capacity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etShortCircuitCurrent"
+                android:text="Earth fault current capacity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/etEarthFaultCurrentet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/Make"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etEarthFaultCurrent"
+                android:layout_marginLeft="17dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="19dp"
+                android:text="Make"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Makeet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/><![CDATA[
+            />
+
+
+
+
+
+
+
+
+            ]]>
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="357dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView20"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:text="Transformar Type"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rdbType"
+                android:layout_width="246dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/textView36">
+
+                <RadioButton
+                    android:id="@+id/In"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dry" />
+
+                <RadioButton
+                    android:id="@+id/Out"
+                    android:layout_width="174dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Oil Filled" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView20"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:text="Mount type"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rdbType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView36">
+
+                <RadioButton
+                    android:id="@+id/In"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Single pole" />
+
+                <RadioButton
+                    android:id="@+id/Out"
+                    android:layout_width="174dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Double pole" />
+
+                <RadioButton
+                    android:id="@+id/out7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pilinth" />
+
+                <TextView
+                    android:id="@+id/year2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/in_bars"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="19dp"
+                    android:layout_weight="1"
+                    android:text="Year
+"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/Yearet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/HT_Feeder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/out_bars"
+                android:text="HT Feeder name
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etHorizentalEarthet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/LT_Feeders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:text="LT Feeders
+" />
+
+            <EditText
+                android:id="@+id/LT_Feederset"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/Day_Feeder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:text="Day Feeder Load (Summation), each feeder loads Night"  />
+
+            <EditText
+                android:id="@+id/Day_Feederet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/Feeder_Load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lbs"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:text="Feeder Load (Summation), each feeder loads
+" />
+
+            <EditText
+                android:id="@+id/Feeder_Loadet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/Day_Loading_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/abs"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:text="Day Loading percentage
+"  />
+
+            <EditText
+                android:id="@+id/Day_Loadinget"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Number of Surge Arrestors"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/Night_loading_percentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="19dp"
+                android:text="Night loading percentage"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Night_loadinget"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+
+            <TextView
+                android:id="@+id/Earth_resistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="19dp"
+                android:text="Earth resistance (neutral earth, arrester earth)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Earth_resistanceet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView33"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Code"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <Button
+                android:id="@+id/btnsave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="@android:color/holo_red_dark"
+                android:shadowDx="0"
+
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="SAVE"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
+

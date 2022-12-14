@@ -1,0 +1,156 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f8ff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/image"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_gravity="center_horizontal|bottom"-->
+            <!--android:scaleType="center"-->
+
+            <!--android:src="@drawable/ceylon-electricity-board" />-->
+
+        <ImageView
+
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ceb2" />
+
+
+        <AutoCompleteTextView
+               android:text="60041DEO1"
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/user"
+            android:drawableStart="@drawable/user" android:gravity="center"
+            android:hint="@string/userName"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#eb000000"
+            android:textColorHint="#eb000000"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat"
+            />
+
+
+        <EditText
+            android:text="test123"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/userName"
+            android:layout_marginTop="21dp"
+            android:drawableLeft="@drawable/lock"
+            android:drawableStart="@drawable/lock" android:gravity="center"
+            android:hint="@string/password"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#eb000000"
+            android:textColorHint="#eb000000"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+
+        <!--<Button-->
+            <!--android:id="@+id/buttonLogin"-->
+            <!--style="?android:textAppearanceSmall"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_below="@+id/password"-->
+            <!--android:layout_marginTop="11dp"-->
+            <!--android:background="#0089a8"-->
+            <!--android:backgroundTint="#0089a8"-->
+            <!--android:text="@string/logIn"-->
+            <!--android:textStyle="bold"-->
+            <!--tools:ignore="RtlCompat"-->
+
+            <!--/>-->
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btnsavebg"
+            android:shadowColor="@android:color/holo_red_dark"
+            android:layout_marginTop="11dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="LOGIN"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/txt_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@2018 | IT Branch-Ceylon Electricity Board | www.ceb.lk"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="Version: 1.2.7"
+                android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

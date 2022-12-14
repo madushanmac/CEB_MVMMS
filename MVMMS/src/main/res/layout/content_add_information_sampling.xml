@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f8ff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mvmms.ceb.myapplication.AddInformationReatedToSampling"
+    tools:showIn="@layout/app_bar_add_information_sampling">
+
+ <!--   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="582dp"
+        android:layout_height="492dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">-->
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="113dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="ලංකා විදුලිබල මණ්ඩලය"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:gravity="center"
+                android:text="இலங்கை மின்சார சபை"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:gravity="center"
+                android:text="Ceylon Electricity Board"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/darker_gray"
+
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewE"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                android:text="Information Reated to Sampling"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+          <!--  <TextView
+                android:id="@+id/textViewManufacture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView11"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="Year of Manufacture"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etManufacture"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewManufacture"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Year of Manufacture"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />-->
+
+            <TextView
+                android:id="@+id/textViewType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView11"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Type"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <Spinner
+                android:id="@+id/SpinnerType"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewType"
+                android:layout_alignStart="@+id/textViewType"
+                android:layout_alignLeft="@+id/textViewType"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:entries="@array/Type1"
+                android:gravity="center"
+                android:hint="Type"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+
+
+            <TextView
+                android:id="@+id/textViewSamplingPort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SpinnerType"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="Sampling Port"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etSamplingPort"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewSamplingPort"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Sampling Port"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textViewExtracted_from_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etSamplingPort"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="Extracted from top"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etExtracted_from_top"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewExtracted_from_top"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Extracted from top"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textViewSamplingLogicSatisfied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etExtracted_from_top"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="Sampling Logic Satisfied"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etSamplingLogicSatisfied"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewSamplingLogicSatisfied"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Sampling Logic Satisfied"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:id="@+id/textViewSampleNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etSamplingLogicSatisfied"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="Sample Number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etSampleNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewSampleNumber"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Sample Number"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textViewSampleDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etSampleNumber"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="Sample Date"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etSampleDate"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewSampleDate"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Sample Date"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textViewPCBTestResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etSampleDate"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="PCB Test Results"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etPCBTestResults"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewPCBTestResults"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="PCB Test Results"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textViewPCBTestdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etPCBTestResults"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="PCB Test date"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/etPCBTestdate"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewPCBTestdate"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="PCB Test Date"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:id="@+id/textViewEPF_Numbers_of_the_Test_Group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etPCBTestdate"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="EPF Numbers of the Test Group"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etEPF_Numbers_of_the_Test_Group"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewEPF_Numbers_of_the_Test_Group"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="EPF Numbers of the Test Group"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textViewRemarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etEPF_Numbers_of_the_Test_Group"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Remarks "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etRemarks"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewRemarks"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Remarks"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:id="@+id/textViewEPF_Numbers_of_the_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etRemarks"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="EPF Numbers of the group "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etEPF_Numbers_of_the_group"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewEPF_Numbers_of_the_group"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="EPF Numbers of the group "
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+            <Button
+                android:id="@+id/btnSample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etEPF_Numbers_of_the_group"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="@android:color/holo_red_dark"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="SAVE"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+
+

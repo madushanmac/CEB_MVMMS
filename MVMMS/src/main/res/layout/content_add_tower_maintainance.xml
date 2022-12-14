@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f8ff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mvmms.ceb.myapplication.AddTowerMaintainance"
+    tools:showIn="@layout/app_bar_add_tower_maintainance">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="ලංකා විදුලිබල මණ්ඩලය"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:gravity="center"
+                android:text="இலங்கை மின்சார சபை"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:gravity="center"
+                android:text="Ceylon Electricity Board"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/darker_gray"
+
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_below="@+id/textViewE"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                android:text="Add Tower Maintainance"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- <TextView
+                 android:id="@+id/textView18"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentStart="true"
+                 android:layout_below="@+id/textView11"
+                 android:layout_marginTop="43dp"
+                 android:text="Visit ID"
+                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                 android:textSize="20sp" />
+
+             <EditText
+                 android:id="@+id/etVisitID"
+                 android:layout_width="wrap_content"
+                 android:layout_height="40dp"
+                 android:layout_alignLeft="@+id/textView3"
+                 android:layout_alignParentEnd="true"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/textView18"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginLeft="25dp"
+                 android:background="@drawable/rounded_edittext"
+                 android:ems="10"
+                 android:gravity="center"
+                 android:hint="Enter Visit ID"
+                 android:textSize="15dp"
+                 android:inputType="textCapSentences|textMultiLine"
+                 android:selectAllOnFocus="true"
+                 android:textAlignment="center"
+                 tools:ignore="RtlCompat"
+                 android:imeOptions="actionNext"
+                 android:layout_toEndOf="@+id/textView3"
+                 android:layout_toRightOf="@+id/textView3"
+
+
+                 />-->
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView11"
+                android:layout_marginTop="22dp"
+                android:text="Tower No"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+            <Spinner
+                android:id="@+id/spinnerTowerNo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+
+
+            <EditText
+                android:id="@+id/etTowerID"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/textView3"
+                android:layout_toRightOf="@+id/textView3"
+                android:layout_marginStart="25dp" android:layout_alignParentStart="true" android:layout_alignStart="@+id/textView3" android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Tower ID"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:visibility="invisible"
+
+
+                />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etTowerID"
+                android:layout_marginTop="19dp"
+                android:text="Tappings"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etNumberOFTappings"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView8"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter No of Tappings"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etNumberOFTappings"
+                android:layout_marginTop="19dp"
+                android:text="No. of Pin Poles 1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/etNumberOFPinPole1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView60"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter No. of Pin Poles 1"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="gone"
+                android:text="0"
+                tools:ignore="RtlCompat"
+                />
+
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etNumberOFPinPole1"
+                android:layout_marginTop="19dp"
+                android:text="Switching Device 1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+            <EditText
+                android:id="@+id/TypeOFSwichingDevice1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView61"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/switching_devise"
+                android:gravity="center"
+                android:hint="Enter Comments"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textMultiLine"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="gone" />
+
+           <!-- <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/TypeOFSwichingDevice1"
+                android:layout_marginTop="19dp"
+                android:text="Switching Dev 2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />-->
+
+            <Spinner
+                android:id="@+id/etTypeOFSwichingDevice1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView61"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/switching_devise"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etTypeOFSwichingDevice1"
+                android:layout_marginTop="19dp"
+                android:text="No. of Pin Poles 2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+
+            <EditText
+                android:id="@+id/etNumberOFPinPole2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView63"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter No. of Pin Poles 2"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="gone"
+                android:text="0"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/TypeOFSwichingDevice2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/etNumberOFPinPole2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/switching_devise"
+                android:gravity="center"
+                android:hint="Enter Comments"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textMultiLine"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etNumberOFPinPole2"
+                android:layout_marginTop="19dp"
+                android:text="Switching Device 2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+            <Spinner
+                android:id="@+id/etTypeOFSwichingDevice2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView64"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/switching_devise"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etTypeOFSwichingDevice2"
+                android:layout_marginTop="19dp"
+                android:text="No. of Pin Poles 3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+
+            <EditText
+                android:id="@+id/etNumberOFPinPole3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView65"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter No. of Pin Poles 3"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="gone"
+                android:text="0"
+                tools:ignore="RtlCompat" />
+            <EditText
+                android:id="@+id/TypeOFSwichingDevice3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/etNumberOFPinPole3"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/switching_devise"
+                android:gravity="center"
+                android:hint="Enter Comments"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textMultiLine"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etNumberOFPinPole3"
+                android:layout_marginTop="19dp"
+                android:text="Switching Device 3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+
+            <Spinner
+            android:id="@+id/etTypeOFSwichingDevice3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView66"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+            android:editable="false"
+            android:ellipsize="marquee"
+            android:ems="10"
+            android:entries="@array/switching_devise"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            android:spinnerMode="dialog"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            tools:ignore="RtlCompat"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etTypeOFSwichingDevice3"
+                android:layout_marginTop="20dp"
+                android:text="Fungus Sets"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/FungusSet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView15"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/switching_devise"
+                android:gravity="center"
+                android:hint="Enter Fungus Sets"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+
+            <Spinner
+                android:id="@+id/etFungusSet"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView15"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/Fungus_Set"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                />
+
+            <TextView
+                android:id="@+id/textViewFlashOverSets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etFungusSet"
+                android:layout_marginTop="20dp"
+                android:text="Flash Over Sets"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/FlashOverSets"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewFlashOverSets"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/switching_devise"
+                android:gravity="center"
+                android:hint="Enter Flash Over Sets"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+
+            <Spinner
+                android:id="@+id/etFlashOverSets"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textViewFlashOverSets"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/Flash_over_sets"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+
+                />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etFlashOverSets"
+                android:layout_marginTop="20dp"
+                android:text="W Pin Sets"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/WPinSet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView16"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/switching_devise"
+                android:gravity="center"
+                android:hint="Enter W Pin Sets"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+
+            <Spinner
+                android:id="@+id/etWPinSet"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView16"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/W_pin_Set"
+                android:gravity="center"
+                android:hint="Enter W Pin Set"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etWPinSet"
+                android:layout_marginTop="20dp"
+                android:text="End Fitting Sets"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/EndFittingSet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView17"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/switching_devise"
+                android:gravity="center"
+                android:hint="Enter Comments"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+
+            <Spinner
+                android:id="@+id/etEndFittingSet"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView17"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/End_Fitting_Set"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+
+
+                />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etEndFittingSet"
+                android:layout_marginTop="20dp"
+                android:text="Jumper Status"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etJumperCondition1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView13"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/Jumper_Condition"
+                android:gravity="center"
+                android:hint="Enter Jumper Status"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textMultiLine"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+
+
+            <Spinner
+                android:id="@+id/SpinnerJumperCondition1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView13"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:ellipsize="marquee"
+
+                android:ems="10"
+                android:entries="@array/Jumper_Condition"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/SpinnerJumperCondition1"
+                android:layout_marginTop="20dp"
+                android:text="Conductor Condition"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etConductorCondition"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView10"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/Conductor_Condition"
+                android:gravity="center"
+                android:hint="Enter Conductor Condition"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textMultiLine"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp"/>
+
+
+
+
+            <Spinner
+                android:id="@+id/SpinnerConductorCondition"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView10"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:ellipsize="marquee"
+                android:ems="10"
+
+                android:entries="@array/Conductor_Condition"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                tools:ignore="RtlCompat" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/SpinnerConductorCondition"
+                android:layout_marginTop="20dp"
+                android:text="Earth Conductor Condition"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/etEarthConductorCondition1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView12"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/Earth_Conductor_Condition"
+                android:gravity="center"
+                android:hint="Enter Enter Conductor Condition"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textMultiLine"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+
+
+            <Spinner
+                android:id="@+id/SpinnerEarthConductorCondition1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView12"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:ellipsize="marquee"
+                android:ems="10"
+
+                android:entries="@array/Earth_Conductor_Condition"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                tools:ignore="RtlCompat" />
+
+
+
+            <TextView
+                android:id="@+id/textViewMissingpart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/SpinnerEarthConductorCondition1"
+                android:layout_marginTop="20dp"
+                android:text="Missing Members"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etMissingParts"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewMissingpart"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/complaint_nature"
+                android:gravity="center"
+                android:hint="Enter No of Missing parts"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:text="0"
+                android:textSize="15dp" />
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etMissingParts"
+                android:layout_marginTop="20dp"
+                android:text="Anti Climbing Status"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/SpinnerAntiClimbingStatus1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView9"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/Anti_Climbing_Status"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLegPainting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/SpinnerAntiClimbingStatus1"
+                android:layout_marginTop="20dp"
+                android:text="Leg Painting Requirement"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <Spinner
+                android:id="@+id/spinnerLegPainting"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textLegPainting"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/leg_painting"
+                android:gravity="center"
+                android:hint="Enter Leg Painting Requirement"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerLegPainting"
+                android:layout_marginTop="20dp"
+                android:text="Base Concrete Status"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chkGOOD1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView7"
+                android:checked="false"
+                android:text="GOOD"
+                />
+
+            <CheckBox
+                android:id="@+id/chkCOVERED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chkGOOD1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView7"
+                android:layout_marginLeft="120dp"
+                android:layout_marginStart="120dp" android:layout_alignStart="@+id/chkGOOD1" android:checked="false"
+                android:text="COVERED" />
+
+            <CheckBox
+                android:id="@+id/chkDanger1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/chkCOVERED"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView7"
+                android:layout_marginLeft="220dp"
+                android:layout_marginStart="220dp" android:layout_alignStart="@id/chkCOVERED" android:checked="false"
+                android:text="DANGER" />
+
+            <CheckBox
+                android:id="@+id/chkMUFFIN_DAMAGE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/chkGOOD1"
+                android:checked="false"
+                android:text="MUFFING DAMAGED" />
+
+            <CheckBox
+                android:id="@+id/chkCORRODED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chkBACK_FILLING"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/chkMUFFIN_DAMAGE"
+                android:layout_marginLeft="120dp"
+                android:layout_marginStart="120dp" android:layout_alignStart="@+id/chkMUFFIN_DAMAGE" android:checked="false"
+                android:text="CORRODED" />
+
+            <CheckBox
+                android:id="@+id/chkWATER_LODGE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/chkCORRODED"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/chkGOOD1"
+                android:layout_marginLeft="220dp"
+                android:layout_marginStart="220dp" android:layout_alignStart="@id/chkCORRODED" android:checked="false"
+                android:text="WATER LOGGED" />
+
+            <CheckBox
+                android:id="@+id/chkBACK_FILLING"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/chkMUFFIN_DAMAGE"
+                android:checked="false"
+                android:text="BACK FILLING"
+                />
+
+
+
+
+
+            <Spinner
+                android:id="@+id/SpinnerBaseConcreteStatus1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/chkBACK_FILLING"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/Base_Concrete_Status"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:visibility="invisible"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/chkBACK_FILLING"
+                android:layout_marginTop="20dp"
+                android:text="Way Leave Status"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chkGOOD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView6"
+                android:checked="false"
+                android:text="GOOD" />
+
+            <CheckBox
+                android:id="@+id/chkTOUCH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chkGOOD"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView6"
+                android:layout_marginLeft="120dp"
+                android:layout_marginStart="120dp"
+                android:layout_alignStart="@+id/chkGOOD"
+                android:checked="false"
+                android:text="TOUCH" />
+
+            <CheckBox
+                android:id="@+id/chkDanger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/chkTOUCH"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView6"
+                android:layout_marginLeft="220dp"
+                android:layout_marginStart="220dp"
+                android:layout_alignStart="@id/chkTOUCH"
+                android:checked="false"
+                android:text="DANGER" />
+
+            <CheckBox
+                android:id="@+id/chkCLOSE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/chkGOOD"
+                android:checked="false"
+                android:text="CLOSE" />
+
+            <CheckBox
+                android:id="@+id/chkARROUND"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chkCLOSE"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/chkGOOD"
+                android:layout_marginLeft="120dp"
+                android:layout_marginStart="120dp"
+                android:layout_alignStart="@+id/chkCLOSE"
+                android:checked="false"
+                android:text="ARROUND" />
+
+            <CheckBox
+                android:id="@+id/chkALONG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/chkARROUND"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/chkGOOD"
+                android:layout_marginLeft="220dp"
+                android:layout_marginStart="220dp"
+                android:layout_alignStart="@id/chkARROUND"
+                android:checked="false"
+                android:text="ALONG" />
+
+            <Spinner
+                android:id="@+id/SpinnerLeavingStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/chkCLOSE"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/Way_Leaving_Status"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textViewSpecialObserve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/chkALONG"
+                android:layout_marginTop="20dp"
+                android:text="Special Observations"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etSpecialObserve"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewSpecialObserve"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/complaint_nature"
+                android:gravity="center"
+                android:hint="Enter Comments"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textMultiLine"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+
+            <Spinner
+                android:id="@+id/spinnerSpecialObserve"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewSpecialObserve"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/sp_observation"
+                android:gravity="center"
+                android:hint="Enter Sp Observation"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerSpecialObserve"
+                android:layout_marginTop="20dp"
+                android:text="Maintenance Attention"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/SpinnerMaintainanceAttention1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView14"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:ellipsize="marquee"
+                android:ems="10"
+
+                android:entries="@array/Maintainance_Attention"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences|textMultiLine"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                tools:ignore="RtlCompat"
+
+                />
+
+
+
+
+
+
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/textViewFlashOverSetNo"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_below="@+id/etFlashOverSets"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:text=" Flash Over Set Number"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+            <!--android:textSize="24sp"-->
+            <!--android:layout_alignParentLeft="true" />-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/etFlashOverSetNo"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_below="@+id/textViewFlashOverSetNo"-->
+            <!--android:layout_gravity="center_horizontal"-->
+
+            <!--android:background="@drawable/rounded_edittext"-->
+            <!--android:editable="false"-->
+            <!--android:hint="Enter Flash Over Set No"-->
+            <!--android:textSize="15dp"-->
+            <!--android:entries="@array/complaint_nature"-->
+            <!--android:gravity="center"-->
+            <!--android:spinnerMode="dialog"-->
+            <!--android:textAlignment="center" />-->
+
+
+
+
+
+            <TextView
+                android:id="@+id/textHotlineMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/SpinnerMaintainanceAttention1"
+                android:layout_marginTop="20dp"
+                android:text="Hot Line Possibility"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <Spinner
+                android:id="@+id/spinnerHotLineMain"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textHotlineMain"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:ellipsize="marquee"
+                android:ems="10"
+                android:entries="@array/hot_line_Main"
+                android:gravity="center"
+                android:hint="Enter Sp Observation"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+
+
+            <!--Button
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnClear"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="@android:color/holo_red_dark"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="CREATE EXCEL"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />-->
+
+            <!--<Button
+                android:id="@+id/btnTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnSave"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="@android:color/holo_red_dark"
+                android:shadowRadius="5"
+                andro
+                id:text="Test"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+
+               />-->
+
+            <!--<ImageView
+                android:id="@+id/imageToUpload"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_below="@+id/spinnerHotLineMain"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:backgroundTint="@color/maroon"
+                />
+
+            <EditText
+                android:id="@+id/etUploadImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageToUpload"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"/>
+            
+            <Button
+                android:id="@+id/bUploadImage"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etUploadImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:text="Upload Photo"/>-->
+            <Button
+                android:id="@+id/btnDBUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinnerHotLineMain"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="@android:color/holo_red_dark"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="SAVE"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+
+                />
+
+            <Button
+                android:id="@+id/btnSync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnClear"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="@android:color/holo_red_dark"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Sync"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+
+                />
+
+
+
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnDBUpdate"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="@android:color/holo_red_dark"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="CLEAR"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

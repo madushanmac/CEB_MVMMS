@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f8ff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mvmms.ceb.myapplication.AddSupport"
+    tools:showIn="@layout/app_bar_add_support">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="ලංකා විදුලිබල මණ්ඩලය"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:gravity="center"
+                android:text="இலங்கை மின்சார சபை"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:gravity="center"
+                android:text="Ceylon Electricity Board"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/darker_gray"
+
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_below="@+id/textViewE"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                android:text="Add Support"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTowerNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView11"
+                android:text="Tower No"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etTowerNo"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textViewTowerNo"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Enter Tower No"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <Spinner
+                android:id="@+id/spinnerTowerNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etTowerNo"
+                android:layout_alignStart="@+id/etTowerNo"
+                android:layout_below="@+id/textViewTowerNo"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible"/>
+
+
+
+            <TextView
+                android:id="@+id/textViewArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etTowerNo"
+                android:layout_marginTop="20dp"
+                android:text="Area"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinnerArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etTowerNo"
+                android:layout_alignStart="@+id/etTowerNo"
+                android:layout_below="@+id/textViewArea"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/etArea"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/etTowerNo"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/etTowerNo"
+                android:layout_below="@+id/textViewArea"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Enter Area"
+                android:inputType="text"
+                android:textSize="15dp"
+                android:visibility="invisible"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/textViewLineName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerArea"
+                android:layout_marginTop="20dp"
+                android:text="Line"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+            <Spinner
+                android:id="@+id/spinnerLineName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/spinnerArea"
+                android:layout_alignStart="@+id/spinnerArea"
+                android:layout_below="@+id/textViewLineName"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/etLineName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textViewLineName"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Enter Line Name"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/textViewCSC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerLineName"
+                android:layout_marginTop="20dp"
+                android:text="CSC"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:visibility="invisible"/>
+
+
+
+            <Spinner
+                android:id="@+id/spinnerCSC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etTowerNo"
+                android:layout_alignStart="@+id/etTowerNo"
+                android:layout_below="@+id/textViewCSC"
+                android:layout_marginTop="18dp"
+                android:entries="@array/csc"
+                android:gravity="center"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible"
+                />
+
+            <EditText
+                android:id="@+id/EtCSC"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textViewCSC"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Enter CSC"
+                android:inputType="text"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:id="@+id/textViewConType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerLineName"
+                android:layout_marginTop="20dp"
+                android:text="Conductor Type"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/etConType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewConType"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp" android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:entries="@array/conType"
+                android:gravity="center"
+                android:hint="Enter Comments"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textMultiLine"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+
+
+
+            <Spinner
+                android:id="@+id/spinnerConType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etTowerNo"
+                android:layout_alignStart="@+id/etTowerNo"
+                android:layout_below="@+id/textViewConType"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+
+            <EditText
+                android:id="@+id/etConType1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/radioGroupSupportType"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/radioGroupSupportType"
+                android:layout_below="@+id/textViewConType"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Enter Conductor Type"
+                android:inputType="text"
+                android:textSize="15dp"
+                android:visibility="invisible"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:id="@+id/textViewSupType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerConType"
+                android:layout_marginTop="20dp"
+                android:text="Support Type"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupSupportType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSupType"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Tower "
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pole"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonGB"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gantry Bay"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonGSSB"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GSS Bay"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewTowerType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/radioGroupSupportType"
+                android:layout_marginTop="20dp"
+                android:text="Tower Type"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinnerTowerType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etTowerNo"
+                android:layout_alignStart="@+id/etTowerNo"
+                android:layout_below="@+id/textViewTowerType"
+                android:layout_marginTop="18dp"
+
+                android:gravity="center"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"
+                android:imeOptions="actionNext"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/etTowerType"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/radioGroupSupportType"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/radioGroupSupportType"
+                android:entries="@array/towerType"
+                android:layout_below="@+id/textViewTowerType"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="Enter Tower Type"
+                android:textSize="15dp"
+                android:imeOptions="actionDone"
+                android:visibility="invisible"
+                android:inputType="textCapSentences|textMultiLine"
+                tools:ignore="RtlCompat"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewNoOfCircuits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerTowerType"
+                android:layout_marginTop="20dp"
+                android:text="Number of Circuits"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <RadioGroup
+                android:id="@+id/NumberOfCircuitsradioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewNoOfCircuits"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Double"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Single"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:id="@+id/rbFour"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Four"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewTowerConfig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/NumberOfCircuitsradioGroup"
+                android:layout_marginTop="20dp"
+                android:text="Tower Configuration"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true" />
+
+            <Spinner
+                android:id="@+id/spinnerTowerConfig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etTowerNo"
+                android:layout_alignStart="@+id/etTowerNo"
+                android:layout_below="@+id/textViewTowerConfig"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:ellipsize="marquee"
+                android:spinnerMode="dialog"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textViewBodyExtention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerTowerConfig"
+                android:layout_marginTop="20dp"
+                android:text="Body Extention"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+
+
+            <RadioGroup
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:id="@+id/BodyExtensionradioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewBodyExtention"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="0"
+                    android:textSize="18sp"/>
+
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3+"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5+"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6+"
+                    android:textSize="18sp"/>
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9+"
+                    android:textSize="18sp"/>
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewLongitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/BodyExtensionradioGroup"
+                android:layout_marginTop="20dp"
+                android:text="GPS-Longitude"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/etLongitude"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/BodyExtensionradioGroup"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/BodyExtensionradioGroup"
+                android:layout_below="@+id/textViewLongitude"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textViewLatitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etLongitude"
+                android:layout_marginTop="20dp"
+                android:text="GPS-Latitude"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/etLatitude"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/etLongitude"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/etLongitude"
+                android:layout_below="@+id/textViewLatitude"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:textSize="15dp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/bLocation"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etLatitude"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:text="Get Location"/>
+
+
+            <TextView
+                android:id="@+id/textViewRemarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etLatitude"
+                android:layout_marginTop="20dp"
+                android:text="Remarks"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true" />
+
+
+
+
+            <EditText
+                android:id="@+id/etRemarks"
+                tools:ignore="RtlCompat"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignLeft="@+id/etLineID"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/etLineID"
+                android:layout_below="@+id/textViewRemarks"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:selectAllOnFocus="true"
+                android:textSize="15dp" />
+
+
+
+            <TextView
+                android:id="@+id/textTapping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etRemarks"
+                android:layout_marginTop="20dp"
+                android:text="Tapping"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true" />
+
+            <Spinner
+                android:id="@+id/spinnerTapiing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textTapping"
+                android:layout_alignStart="@+id/textTapping"
+                android:layout_below="@+id/textTapping"
+                android:layout_marginTop="18dp"
+                android:entries="@array/Tapping"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:ellipsize="marquee"
+                android:spinnerMode="dialog"
+                android:textAlignment="center" />
+
+
+
+
+            <ImageView
+                android:id="@+id/imageToUpload"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_below="@+id/etRemarks"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:backgroundTint="@color/maroon" />
+
+            <Button
+                android:id="@+id/bUploadImage"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageToUpload"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:text="Upload Photo"/>
+
+
+            <Button
+                android:id="@+id/btnSaveDB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bUploadImage"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginTop="20dp"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Save"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+
+
+            <Button
+                android:id="@+id/btnSync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnSaveDB"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginTop="20dp"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Sync"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnSync"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnsavebg"
+                android:shadowColor="#A8A8A8"
+                android:layout_marginTop="20dp"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Clear"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

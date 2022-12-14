@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ceb3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".subline"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddSwitches"
+            android:label="@string/title_activity_add_switches"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddTransformersG"
+            android:label="@string/title_activity_add_transformers_g"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddSurgeArrestors"
+            android:label="@string/title_activity_add_surge_arrestors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddDDLO"
+            android:label="@string/title_activity_add_ddlo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddABS"
+            android:label="@string/title_activity_add_abs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddOutgoingFeeder"
+            android:label="@string/title_activity_add_outgoing_feeder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddStructural"
+            android:label="Add Structural and Earthing System"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddBusBar"
+            android:label="Add Bus Bar and Auxiliary System"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddAutoRecloserG" /> <!-- <activity android:name=".AddLBSABS"></activity> -->
+        <!-- <activity android:name=".AddAutoRecloser"></activity> -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_apphome"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <activity android:name=".Login" /> -->
+        <activity
+            android:name=".AddLine"
+            android:label="@string/title_activity_add_line"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddGantry"
+            android:label="@string/title_activity_add_gantry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddGantryMore"
+            android:label="Add Gantry location"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddFeeder"
+            android:label="Add Feeder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddAutoRecloser"
+            android:label="Add Auto Recloser"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddLBSABS"
+            android:label="Add LBS ABS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GetNearByTower"
+            android:label="@string/title_activity_get_nearby_tower"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddSupport"
+            android:label="@string/title_activity_add_support"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddTowerMaintainance"
+            android:label="@string/title_activity_add_tower_maintainance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddInsulatorMaintainance"
+            android:label="@string/title_activity_add_insulator_type"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TM2"
+            android:label="@string/title_activity_tm2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddPoles"
+            android:label="@string/title_activity_add_poles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddMVPoles"
+            android:label="AddMVPoles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddMVPolesMaintenance"
+            android:label="Add MV Pole Maintenance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddMVPolesMaintenanceSelect"
+            android:label="Add MV Pole Maintenance Selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddTransformers"
+            android:label="@string/title_activity_add_transformers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddLVFeeders"
+            android:label="Add LV Feeders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddGSS"
+            android:label="Add GSS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MapSelection"
+            android:label="Map Selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MapView"
+            android:label="Map View"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LocationGetter"
+            android:label="Location Getter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MarkerDemoActivity"
+            android:label="Marker Demo "
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditGantry"
+            android:label="Edit Gantry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditBusBar"
+            android:label="Edit Bus Bar and Auxiliary System"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditStructural"
+            android:label="Edit Structural and Earthing System"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditGantryMore"
+            android:label="Edit Gantry location"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditFeeder"
+            android:label="Edit Feeder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditSwitches"
+            android:label="Edit Switch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditPoles"
+            android:label="Edit Poles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditLine"
+            android:label="Edit Line"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditSurgeArrestors"
+            android:label="Edit Surge Arrestors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditTransformersG"
+            android:label="Edit Transformers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditSupport"
+            android:label="Edit Support"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditMVPoles"
+            android:label="Edit MV Poles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MmsAddArea" />
+        <activity android:name=".MmsAddsupport" /> <!-- activity android:name=".MmsTowerNo" / -->
+        <activity android:name=".MmsTxntowermaintenance" />
+        <activity android:name=".MmsTxntowermaintenancePK" />
+        <activity android:name=".MmsAddconductortype" /> <!-- activity android:name=".MmsConType" / -->
+        <activity android:name=".MmsTowertype" />
+        <activity android:name=".MmsAddtowerconfiguration" />
+        <activity android:name=".MmsAddlinetype" />
+        <activity android:name=".MmsAddPole" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB80wLKnkDHnZlA1xA9aiEDNHmpcoEk_Uo" />
+        <!--
+         The API key for Google Maps-based APIs is defined as a string resource.
+         (See the file "res/values/google_maps_api.xml").
+         Note that the API key is linked to the encryption key used to sign the APK.
+         You need a different API key for each encryption key, including the release key
+         that is used to sign the APK for publishing.
+         You can define the keys for the debug and
+            release targets in src/debug/ and src/release/.
+        -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.akla.login"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    </application>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>
